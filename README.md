@@ -16,4 +16,4 @@ export PATH="$PATH:$(go env GOPATH)/bin"
 
 Regenerate Proto-buffers in GO
 
-protoc -I="." --go_out="./chat" chat.proto
+protoc -I="." --go-grpc_out="./chat" chat.proto
